@@ -21,7 +21,7 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'your.main.Class'
+        attributes 'Main-Class': 'org.example.Main'
     }
     archiveBaseName.set('myname')
     archiveVersion.set('')
